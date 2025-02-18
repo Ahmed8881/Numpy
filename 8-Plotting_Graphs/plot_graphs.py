@@ -13,3 +13,4 @@ plt.plot(x, y)
 
 # Displaying the plot
 plt.show()
+
