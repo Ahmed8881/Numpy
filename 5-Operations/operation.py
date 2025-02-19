@@ -35,7 +35,7 @@ print("New arr2 reshaped to (3x2):\n", arr2)
 
 # Performing matrix multiplication between arr1 (2x3) and arr2 (3x2)
 print("Dot product of arr1 and reshaped arr2:\n", arr1.dot(arr2))  # Expected output: [[10 13],[28 40]]
-
+arr1=np.array([[0,1,2],[3,4,5]])
 # Finding maximum values in arr1
 print("Maximum value in arr1:", arr1.max())  # Expected output: 5
 print("Maximum values along columns (axis=0):", arr1.max(axis=0))  # Expected output: [3 4 5]
